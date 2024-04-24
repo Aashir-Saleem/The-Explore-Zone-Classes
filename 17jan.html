@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <table border="10" width="500px" bgcolor="hsl(119°, 76%, 71%)">
+        <tr>
+            <th rowspan="3">
+                Day
+            </th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">schedule</th>
+            <th rowspan="2">
+                Topic
+            </th>
+
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 a.m.</td>
+            <td rowspan="2">5:00 p.m.</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validaity : DTD and relax</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 a.m.</td>
+            <td>11:00 a.m.</td>
+            <td rowspan="">Xpath</td>
+        </tr>
+        <tr>
+            <td>8:00 a.m.</td>
+            <td>11:00 a.m.</td>
+            <td rowspan="2">XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>8:00 a.m.</td>
+            <td>11:00 a.m.</td>
+            
+        </tr>
+        <tr>
+            <td>Wensday</td>
+            <td>8:00 am</td>
+            <td>12:00 pm</td>
+            <td>XSL Formatting Objects</td>
+          </tr>
+    </table> -->
+
+    <fieldset>
+    <form action="#">
+        <h1>Registration form</h1>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="user" maxlength="20" /> <br> <br>
+        <label for="Password">Password:</label>
+        <input type="password" name="password" id="pass" maxlength="20" placeholder="Password"/> <br> <br>
+        <label for="why">Why you are registering on this website?</label><br><br>
+        <textarea name="why" id="why" cols="30" rows="10"></textarea>
+        <p>Please select your gender:
+            <br />
+            <input type="radio" name="gender" value="male"
+             /> Male
+            <input type="radio" name="gender" value="female" />
+            female
+            <input type="radio" name="gender" value="other" checked />
+            other
+           </p>
+          
+           <p>Please select your favorite music service(s):
+            <br />
+            <input type="checkbox" name="service"
+            value="itunes" checked="checked" /> iTunes
+            <input type="checkbox" name="service"
+            value="lastfm" /> Last.fm
+            <input type="checkbox" name="service"
+            value="spotify" /> Spotify
+           </p>
+           <p>What device do you listen to music on?</p>
+            <select name="devices">
+            <option value="ipod">iPod</option>
+            <option value="radio">Radio</option>
+            <option value="comp"> Computer </option>
+            </select>
+    </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link{
+            color : red;
+        }
+        a:visited{
+            color: ORange;
+        }
+        a:hover{
+         color:aqua;
+         font-size: 100px;
+        }
+        a:active{
+            color: brown;
+        }
+        a:focus{
+            color: blueviolet;
+        }
+        .box{
+            width: 300px;
+            height:300px;
+            background-color: blue;
+            border: 1px solid black;
+            display: inline-block;
+            font-size: 250px;
+            text-align: center;
+        }
+        #box1{
+            background-color: aqua;
+        }
+        #box2{
+            background-color: blueviolet;
+        }
+        #box3{
+            background-color: chartreuse;
+        }
+        p{
+            width: 90%;
+            max-width: 500px  ;
+        }
+        p.one{
+            width: 100px;
+            height: 100px;
+            overflow: hidden; /*scroll */
+        }
+    </style>
+</head>
+<body>
+    <!-- page 314 -->
+    <a href="https://www.google.com"> Google</a>
+    <a href="https://www.webtechnify.com"> Webtechnify</a>
+    <a href="https://www.Facebook.com"> Facebook</a>
+
+    <div class="cont">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+    <p>
+        Some page designs expand and
+shrink to fit the size of the user's
+screen. In such designs, the
+min-width property specifies
+the smallest size a box can be
+displayed at when the browser
+window is narrow, and the
+max-width property indicates
+the maximum width a box can
+stretch to when the browser
+window is wide.
+These are very helpful properties
+to ensure that the content of
+pages are legible (especially on
+the smaller screens of handheld
+devices). For example, you can
+use the max-width property to
+ensure that lines of text do not
+appear too wide within a big
+browser window and you can
+use the min-width property
+to make sure that they do not
+appear too narrow
+    </p>
+    <br>
+    <h2>Fender Stratocaster</h2>
+<p class="one">The Fender Stratocaster or "Strat"
+ is one of the most popular electric guitars of
+ all time, and its design has been copied by many
+ guitar makers. It was designed by Leo... </p>
+<h2>Gibson Les Paul</h2>
+<p class="two">The Gibson Les Paul is a solid body
+ electric guitar that was first sold in 1952.
+ The Les Paul was designed by Ted McCarty... </p>
+</body>
+</html>
