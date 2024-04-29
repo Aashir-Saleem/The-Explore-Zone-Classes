@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* display: inline-block; */
+            width: 70%;
+            margin:auto;
+            /* background-color: red; */
+        }
+        .cont{
+            width: 700px;
+            margin: auto;
+            /* background-color: blue; */
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            margin-left:3%;
+            /* float: right; */
+            margin-bottom: 10px;
+        }
+        .box1{
+            background-color: aqua;
+        }
+        .box2{
+            background-color: darkcyan;
+
+        }
+        .box3{
+            background-color: teal;
+        }
+        @media (min-width:400px) and (max-width:500px){
+            h1{
+                background-color: red;
+            }
+            p{
+                font-size: 40px;
+            }
+        }
+        @media screen and (max-width:768px) {
+            .container{
+                width: 100%;
+            }
+        }
+        @media screen and (max-width:425px){
+            .box{
+                width: 70% !important;
+                /* background-color: antiquewhite !important; */
+                display: block;
+                /* margin: auto; */
+                margin: 10px auto;
+                border-radius: 30px;
+            }
+            .cont{
+                width: 80%;
+                padding: 10px 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>
+        The Explore Zone
+    </h1>
+    <p>
+        Birds are a group of warm-blooded vertebrates constituting the class Aves, characterised by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton.
+    </p>
+    <div class="container">
+        <div class="cont">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+    </div>
+</body>
+</html>
